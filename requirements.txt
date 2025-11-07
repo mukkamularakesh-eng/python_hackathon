@@ -1,0 +1,32 @@
+# --- Core scientific stack ---
+numpy
+pandas
+
+# --- Visualization ---
+matplotlib
+seaborn
+plotly
+
+# --- Machine Learning / Modeling ---
+scikit-learn
+lightgbm
+xgboost
+
+# --- Model persistence ---
+joblib
+pickle-mixin   # safe helper for legacy pickle files (lightweight optional dependency)
+
+# --- REST API Framework ---
+flask
+
+# --- Utilities ---
+requests
+jsonschema
+
+# --- Optional (for working in VS Code with Jupyter notebooks) ---
+notebook
+ipykernel
+
+# --- Compatibility / safety extras ---
+packaging      # required by matplotlib, lightgbm, etc.
+tqdm           # often used by ML pipelines
